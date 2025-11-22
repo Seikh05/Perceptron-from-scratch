@@ -15,17 +15,6 @@ It trains a binary classifier on a 2D dataset and visualizes how the **decision 
 * Includes dataset + output plot
 
 ---
-
-## 📁 Repository Structure
-
-```
-📦 perceptron-from-scratch
- ┣ 📄 DATA_W3_L2.csv        → Dataset used for training
- ┣ 📄 perceptron.ipynb      → Jupyter Notebook with full implementation
- ┣ 📄 output.png            → Decision boundary visualization
- ┗ 📄 README.md             → Project documentation (this file)
-```
-
 ## 🧠 What is a Perceptron?
 
 The **Perceptron** is one of the earliest and simplest neural network algorithms.
@@ -58,31 +47,6 @@ The following image shows how the decision boundary changes over training epochs
 ![Decision Boundary](./output.png)
 
 It helps visualize how the perceptron gradually learns a separating line.
-
----
-
-## 📌 How to Run
-
-### 1. Clone the repo
-
-```
-git clone https://github.com/Seikh05/Perceptron-from-scratch.git
-cd Perceptron-from-scratch
-```
-
-### 2. Install dependencies
-
-```
-pip install numpy pandas matplotlib
-```
-
-### 3. Open the notebook
-
-```
-jupyter notebook perceptron.ipynb
-```
-
-Run all cells to train the model and generate the decision boundary plot.
 
 ---
 
